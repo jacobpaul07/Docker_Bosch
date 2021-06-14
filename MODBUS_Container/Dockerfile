@@ -7,5 +7,6 @@ ADD Modbus_MongoDB.py /
 
 RUN pip install pymongo
 RUN pip install pymodbus
+RUN pip install dnspython
 
 CMD [ "python", "./Modbus_MongoDB.py" ]
